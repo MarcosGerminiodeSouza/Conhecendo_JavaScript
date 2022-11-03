@@ -4,7 +4,7 @@ const pessoa = {
     descreva: function (){
         console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade} anos.`);
     }
-}; // objetos literias {chave e valor, chave e valor...}
+}; // objeto literal {chave e valor, chave e valor...}
 /*
 pessoa.descreva = function (){
     console.log(`Meu nome é ${this.nome}`)
@@ -22,5 +22,6 @@ pessoa.descreva();
 
 //const atributo = 'idade';
 //console.log(pessoa['idade']);
-//pessoa['nome'] = 'teste';   // atributo
-// pessoa.nome = 'teste';      // direto
+//pessoa['nome'] = 'teste';// atributo
+// pessoa.nome = 'teste';// direto
+
