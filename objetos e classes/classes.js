@@ -40,14 +40,6 @@ class Pessoa {
     }
 }
 
-const vitor = new Pessoa('Vitor Gerra', 25);
-const renan = new Pessoa('Renan de Paula', 30);
 const marcos = new Pessoa('Marcos Germinio', 26);
-/*
-vitor.descrever();
-renan.descrever();
-marcos.descrever();
-*/
-console.log(vitor);
-console.log(renan);
+
 console.log(marcos);
