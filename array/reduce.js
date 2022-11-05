@@ -36,7 +36,7 @@ const total = produtos.map(p => p.preco * 4).reduce((a, b) => a + b, 0)
 
 console.log(total)
 */
-/*
+    //soma quantidade total de foguetes ao todo 
 const foguetes = [
     { pais: 'Russia', quant: 32 },
     { pais: 'USA', quant: 23 },
@@ -49,4 +49,3 @@ const foguetes = [
 const quantTotal = foguetes.reduce( ( preVal, elem ) => preVal + elem.quant, 0 )
 
 console.log(quantTotal);
-*/
