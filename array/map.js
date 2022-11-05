@@ -18,14 +18,6 @@ const multiplicador = numeros.map( multiplicar );
 console.log(multiplicador);
 */
 /*
-const fahrenheit = [0, 32, 45, 50, 75, 120];
-
-const celsius = fahrenheit.map( function(elem){
-    return Math.round((elem - 32) * 5/9 );
-} );
-console.log(celsius);
-*/
-/*
 const produtos = [
     {
         nome: "notebook",
@@ -39,3 +31,10 @@ const produtos = [
 const precosEmReais = produtos.map(p => p.preco * 4)
 console.log(precosEmReais)
 */
+    // transforma o novo array: fahrenheit = celsius
+const fahrenheit = [0, 32, 45, 50, 75, 120];
+
+const celsius = fahrenheit.map( function(elem){
+    return Math.round((elem - 32) * 5/9 );
+} );
+console.log(celsius);
