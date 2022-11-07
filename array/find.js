@@ -1,4 +1,4 @@
-/*    // vai retornar o valor do primeiro elemento. No caso "Mussarela"
+/*    // vai retornar o valor do primeiro elemento com letra 'M'. No caso "Mussarela"
 const pizzas = [
     "Mussarela",
     "Calabresa",
@@ -19,6 +19,6 @@ const frutas = [
     {nome: "cereja", quant: 5}
 ]
 
-const foundFruta = frutas.find( fruta => fruta.nome === "cereja" )
+const busca = frutas.find( fruta => fruta.nome === "cereja" )
 
-console.log(foundFruta);
+console.log(busca);
