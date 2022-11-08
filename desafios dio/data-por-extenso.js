@@ -1,9 +1,8 @@
-//gets(); 19/10/1997 , 25/12/2019 , 02/02/2020
+// 19/10/1997 , 25/12/2019 , 02/02/2020
+let data = '13/09/2021';
+//let data = gets();
 const mesTxt = [' de Janeiro de ',' de Fevereiro de ',' de Março',' de Abril de ',' de Maio',' de Junho de ',
 ' de Julho de ',' de Agosto de ',' de Setembro de ',' de Outubro de ',' de Novembro de ',' de Dezembro de ']
-
-
-let data = '11/01/1996';
 let dataSplit = data.split('/');
 let mes = dataSplit[1];
 
@@ -36,3 +35,4 @@ if (mes == 01) {
 dataSplit[1] = mes;
 
 console.log(dataSplit.join(''));
+//print(dataSplit.join(''));
