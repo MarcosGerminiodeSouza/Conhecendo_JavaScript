@@ -1,14 +1,38 @@
 //gets(); 19/10/1997 , 25/12/2019 , 02/02/2020
-const mesTxt = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
-function setReplace(frase, nome, novo_nome){
-    return frase.replace(nome, novo_nome)
+const mesTxt = [' de Janeiro de ',' de Fevereiro de ',' de Março',' de Abril de ',' de Maio',' de Junho de ',
+' de Julho de ',' de Agosto de ',' de Setembro de ',' de Outubro de ',' de Novembro de ',' de Dezembro de ']
+
+
+let data = '11/01/1996';
+let dataSplit = data.split('/');
+let mes = dataSplit[1];
+
+if (mes == 01) {
+    mes = mesTxt[0];
+}   else if(mes == 02){
+    mes = mesTxt[1];
+}   else if (mes == 03){
+    mes = mesTxt[2];
+}   else if(mes == 04){
+    mes = mesTxt[3];
+}   else if (mes == 05){
+    mes = mesTxt[4];
+}   else if(mes == 06){
+    mes = mesTxt[5];
+}   else if (mes == 07){
+    mes = mesTxt[6];
+}   else if(mes == 08){
+    mes = mesTxt[7];
+}   else if (mes == 09){
+    mes = mesTxt[8];
+}   else if(mes == 10){
+    mes = mesTxt[9];
+}   else if (mes == 11){
+    mes = mesTxt[10];
+}   else {
+    mes = mesTxt[11];
 }
 
-let data = 02/02/2020;
-let dataSplit = data
-    .split('/')
-    .join('')
-;
+dataSplit[1] = mes;
 
-console.log(mesTxt);
-//console.log(setReplace("19/10/1997","/10/"," de outubro de "));
+console.log(dataSplit.join(''));
